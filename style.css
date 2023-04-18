@@ -1,0 +1,99 @@
+body{
+    direction: rtl;
+    font-family: 'Varela Round', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom, #7c604c, white);
+}
+.main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.title{
+    color: white;
+    font-size: 60px;
+}
+.description{
+    color: white;
+    font-size: 25px;
+    max-width: 1000px;
+}
+hr{
+    border: none;
+}
+hr:after{
+    content: '∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿';
+    /* Ratio -> font-size/letter-spacing = 6.25 */
+    letter-spacing: -9.6px;
+    font-size: 60px;
+    color: #4F311C;
+}
+.chapter-1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.chapter-2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-1{
+    margin-right: 0px;
+}
+.text-1{
+    margin-top: 60px;
+}
+.text-1a, .text-1b{
+    max-width: 800px;
+    font-size: 19px;
+}
+
+.img-2{
+    margin-left: 0px;
+    border-radius: 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+.text-2{
+    margin-top: 80px;
+}
+.text-2a, .text-2b{
+    max-width: 800px;
+    font-size: 19px;
+}
+.img-3{
+    height:400px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border-radius: 50%;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+.question{
+    margin-top: 50px;
+    font-size: 60px;
+}
+.hr-4{
+    margin-top: 30px;
+}
+.hr-5{
+    margin-top: -80px;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: white;
+    }
+}
